@@ -13,8 +13,7 @@ namespace BreakfastTestTest
         public void TestBreakfast()
         {
             BreakfastTest.Program.Main(new string[0]).Wait();
-            Assert.Warn("Some Test");
-            Assert.Pass();
+            Assert.Inconclusive();
         }
     }
 }
